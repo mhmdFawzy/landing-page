@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Another website</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- expand tell when the humburger menu will appear  -->
+  <nav class="navbar navbar-expand-sm navbar-expand-md bg-dark navbar-dark sticky-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Project Name</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#explore" class="nav-link">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a href="#create" class="nav-link">Create</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" data-toggle="modal" data-target="#loginModal">Log in</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- modal -->
+  <div class="modal" id="loginModal" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Login</h5>
+          <button class="close" data-dismiss="modal">×</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" placeholder="Username" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button class="btn btn-success" data-dismiss="modal">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal -->
+
+  <!-- home section -->
+  <header id="home">
+    <div class="overlay d-flex align-items-center">
+      <div class="home-inner mx-auto">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 pt-2 d-none d-lg-block">
+              <h1 class="display-3 text-capitalize">
+                build your social network
+              </h1>
+              <ul class="list-group custom-list mb-5">
+                <li class="list-group-item d-flex  align-items-center">
+                  <span class="p-2 mr-2 badge">
+                    <i class="fa fa-3x fa-check"></i>
+                  </span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui inventore vel porro, magnam dolorum iusto!
+                  Voluptatibus cupiditate ipsum aspernatur,
+                </li>
+                <li class="list-group-item d-flex  align-items-center">
+                  <span class="p-2 mr-2 badge">
+                    <i class="fa fa-3x fa-check"></i>
+                  </span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui inventore vel porro, magnam dolorum iusto!
+                  Voluptatibus cupiditate ipsum aspernatur,
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <span class="p-2 mr-2 badge">
+                    <i class="fa fa-3x fa-check"></i>
+                  </span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui inventore vel porro, magnam dolorum iusto!
+                  Voluptatibus cupiditate ipsum aspernatur,
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <span class="p-2 mr-2 badge">
+                    <i class="fa fa-3x fa-check"></i>
+                  </span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui inventore vel porro, magnam dolorum iusto!
+                  Voluptatibus cupiditate ipsum aspernatur,
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 text-center my-auto">
+              <div class="card mx-auto col-12 card-form">
+                <div class="card-body card-form">
+                  <div class="card-title text-capitalize text-white display-5 font-weight-bold">
+                    sign up with us now
+                  </div>
+                  <form>
+                    <div class="form-group">
+                      <input class="form-control mb-2" type="text" name="username" id="" placeholder="Enter Your username">
+                      <input class="form-control mb-2" type="text" name="email" id="" placeholder="Enter Your email">
+                      <input class="form-control form-control-md mb-2" type="text" name="password" id="" placeholder="Enter Your password">
+                      <input class="form-control mb-2" type="text" name="confirm-password" id="" placeholder="Confirm Your password">
+                      <input type="button" value="Sign Up" class="btn btn-block bg-white">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end home section -->
+
+  <!-- start of explore section -->
+  <section id="explore">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center p-4">
+          <h2 class="display-3 text-capitalize pb-3 text-success">
+            explore
+          </h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, aliquam? Inventore earum similique voluptate omnis.
+            Fuga cupiditate aut iure placeat, mollitia numquam quisquam, dolor perferendis est quia ab, tempora sint!
+          </p>
+          <a href="#" class="text-capitalize btn btn-outline-success">find out more</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="bg-white text-muted py-3">
+      <div class="container">
+        <div class="row">
+          <div class="row mt-md-2">
+            <div class="media d-flex flex-md-row flex-column">
+              <img class="mb-2 mb-sm-0 col-md-6 img-fluid align-self-center" alt="img" src="img/mobile.jpeg">
+              <div class="media-body col-md-6">
+                <h5 class="mt-0">Explore Heading Features</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+                felis in faucibus.
+                <div>
+                  <ul class="list-group custom-list mb-5">
+                    <li class="list-group-item d-flex align-items-center">
+                      <span class="p-2 mr-2 badge">
+                        <i class="fa fa-3x fa-check"></i>
+                      </span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui inventore vel porro, magnam dolorum iusto!
+                      Voluptatibus cupiditate ipsum aspernatur,
+                    </li>
+                    <li class="list-group-item d-flex  align-items-center">
+                      <span class="p-2 mr-2 badge">
+                        <i class="fa fa-3x fa-check"></i>
+                      </span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui inventore vel porro, magnam dolorum iusto!
+                      Voluptatibus cupiditate ipsum aspernatur,
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end explore section -->
+  <!-- start create section -->
+  <section id="create">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center p-4">
+          <h2 class="display-3 text-capitalize pb-3 text-success">
+            create
+          </h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, aliquam? Inventore earum similique voluptate omnis.
+            Fuga cupiditate aut iure placeat, mollitia numquam quisquam, dolor perferendis est quia ab, tempora sint!
+          </p>
+          <a href="#" class="text-capitalize btn btn-outline-success">find out more</a>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white text-muted py-3">
+      <div class="container">
+        <div class="row">
+          <div class="row mt-md-2">
+            <div class="media d-flex flex-md-row flex-column">
+              <div class="media-body col-md-6">
+                <h5 class="mt-0">Explore Heading Features</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+                felis in faucibus.
+                <div>
+                  <ul class="list-group custom-list mb-5">
+                    <li class="list-group-item d-flex align-items-center">
+                      <span class="p-2 mr-2 badge">
+                        <i class="fa fa-3x fa-check"></i>
+                      </span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui inventore vel porro, magnam dolorum iusto!
+                      Voluptatibus cupiditate ipsum aspernatur,
+                    </li>
+                    <li class="list-group-item d-flex  align-items-center">
+                      <span class="p-2 mr-2 badge">
+                        <i class="fa fa-3x fa-check"></i>
+                      </span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui inventore vel porro, magnam dolorum iusto!
+                      Voluptatibus cupiditate ipsum aspernatur,
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <img class="mb-2 mb-sm-0 col-md-6 img-fluid align-self-center" alt="img" src="img/mobile.jpeg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end create section -->
+  <!-- start contact us -->
+  <section id="contact">
+    <div class="container mt-auto" >
+      <div class="row">
+        <div class="col-md-8 col-12 ml-auto p-3 mt-3">
+          <form>
+            <h3 class="display-4">Contact Us</h3>
+            <div class="form-group">
+              <input type="text" name="email" id="" class="form-control" placeholder="Enter Your email">
+              <textarea name="message" class="form-control" id="" cols="30" rows="10" placeholder="Enter Your Message Here"></textarea>
+              <a href="#" class="btn btn-outline-success text-capitalize mt-2">send message</a>
+            </div>
+          </form>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  <!-- end contact us  -->
+  <!-- footer -->
+  <hr class="bg-white">
+  <footer>
+    <div class="container">
+      <div class="row text-center">
+        <h3 class="col-12">
+          ProjectName
+        </h3>
+        <p class="col-12">
+          &copy;Reserved 2018 
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

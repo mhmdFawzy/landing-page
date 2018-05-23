@@ -1,0 +1,62 @@
+body {
+  background: #333;
+  color: #fff; }
+
+body, html {
+  overflow-x: hidden !important; }
+
+.form-control {
+  background: transparent !important;
+  border: none !important;
+  color: white;
+  border-bottom: 1px solid white !important;
+  border-radius: 5px !important; }
+
+.navbar {
+  border-bottom: 3px solid #28a745;
+  opacity: 0.8; }
+  .navbar a {
+    color: white; }
+  .navbar a:hover {
+    color: #28a745; }
+
+.nav-links {
+  color: #fff; }
+
+#home {
+  background: url("../img/home.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+  position: relative; }
+  #home .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home .card-form {
+    background-color: #28a745; }
+
+.custom-list {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: transparent;
+  border: none; }
+  .custom-list .list-group-item {
+    background-color: transparent;
+    border: none; }
+  .custom-list span {
+    background-color: #28a745; }
+
+#contact {
+  background: url("../img/contact.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+
+footer h3, .modal-header {
+  color: #28a745; }
